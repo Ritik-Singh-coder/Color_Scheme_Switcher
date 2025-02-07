@@ -1,0 +1,22 @@
+This is file which tells us how to push any file on remote github via PAT(personal access token)
+
+git remote -v 
+
+(this above command is shows you the current remote or your github repo)
+
+git remote add orign <path of url repo> (which you want to add)
+
+(above command if you have not a remote than you can add it for using above command easily)
+
+git remote set-url origin <path of url where you want to push and your genreted token before githun.hub in the url with @ like <token@github.com----->
+
+(above command gives you access for pushing to that repo)
+
+git push origin <branch name which you want to  push>
+
+git remote remove origin (for deleting the current remote)
+
+
+
+
+
